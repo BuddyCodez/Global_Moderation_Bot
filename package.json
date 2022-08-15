@@ -1,0 +1,18 @@
+{
+	"name": "moderation",
+	"version": "1.0.0",
+	"description": "Global moderation",
+	"main": "index.js",
+	"scripts": {
+		"test": "node bot"
+	},
+	"author": "jasonhaxstuff",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"ascii-table": "^0.0.9",
+		"discord-modals": "^1.3.9",
+		"discord.js": "^14.2.0",
+		"fs": "^0.0.1-security",
+		"quickmongo": "^5.1.2"
+	}
+}
