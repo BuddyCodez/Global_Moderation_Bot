@@ -35,10 +35,7 @@ module.exports = {
       if (!user) return interaction.editReply({
         content: "Provided User id is not found",
       });
-    let UnBanReason;
 
-
-    // embed after success full channel set
       let Embed = new EmbedBuilder()
           .setTitle("__User Unbanned__")
           .setDescription(
@@ -47,7 +44,6 @@ module.exports = {
           .setTimestamp()
           .setFooter({ text: "Global Unbanned" })
       .setColor(0x00ff00);
-    
       let NotunBannable = [];
          let Guilds = client.guilds.cache;
          let BanSize = 0;
@@ -58,7 +54,7 @@ module.exports = {
         let FilterBans = GuildBans.filter(x => x.user.id === userid);
         if (FilterBans.size > 0) {
           await Guild.bans
-            .remove(userid, {reason: reason})
+            .remove(userid, reason)
             .then(() => {
               BanSize = BanSize + 1;
               console.log(

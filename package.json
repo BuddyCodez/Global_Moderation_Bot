@@ -4,7 +4,8 @@
 	"description": "Global moderation",
 	"main": "index.js",
 	"scripts": {
-		"test": "node bot"
+		"test": "node bot",
+		"start": "nodemon ./index.js"
 	},
 	"author": "jasonhaxstuff",
 	"license": "GPL-3.0",
@@ -12,6 +13,7 @@
 		"ascii-table": "^0.0.9",
 		"discord-modals": "^1.3.9",
 		"discord.js": "^14.2.0",
+		"dotenv": "^16.0.1",
 		"fs": "^0.0.1-security",
 		"quickmongo": "^5.1.2"
 	}

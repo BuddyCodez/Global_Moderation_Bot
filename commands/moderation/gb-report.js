@@ -106,7 +106,7 @@ module.exports = {
           if (i.customId === `Accept_${i.user.id}`) {
             let ActionEmbed = new EmbedBuilder()
               .setTitle("__Action Confirmed__")
-              .setDescription("i have successfully sent the report!")
+              .setDescription("I have successfully sent the report!")
               .addFields(
                 { name: "__Offenders User ID__", value: string("user_id") },
                 { name: "__Reason for report__", value: string("reason") },
@@ -186,9 +186,10 @@ module.exports = {
                 })
               });
           } else {
+            
             let ActionEmbed = new EmbedBuilder()
               .setTitle("__Action Cancelled__")
-              .setDescription("ok, i have not sent the report.")
+              .setDescription("Ok, I have not sent the report.")
               .addFields(
                 { name: "__Offenders User ID__", value: string("user_id") },
                 { name: "__Reason for report__", value: string("reason") },
@@ -198,7 +199,7 @@ module.exports = {
               .setFooter({
                 text: "Your report was not sent!",
               });
-            i.followUp({
+            i.reply({
               content: `<@${interaction.user.id}>`,
               embeds: [ActionEmbed],
             }).then(async (msg) => {

@@ -1,0 +1,5 @@
+hey there its Udit, hoping you are great.
+Now Moving to the bot setup:
+1:- Make sure to have a .env file for bot token and mongo db uri to connect to our database and Bot,
+2:- Appeal server id is where user can appeal so make sure to put it other wise bot will also ban there or u can just not invite bot there.
+so thats how you can setup this bot if you have any other querry contact me :)
