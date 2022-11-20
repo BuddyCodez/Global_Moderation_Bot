@@ -1,10 +1,30 @@
 { 
-    "mongo_uri": "mongodb+srv://Buddyisop:sbgqYP6k6KJrVAel@globalmod.dril7jo.mongodb.net/?retryWrites=true&w=majority",
     "devs": ["480285300484997122", "768148860925116477"],
     "guide": "https://vegadudit.netlify.app",
-    "AppealServer":"",
-    "AppealServerid": "",
-    "support_server": "",
-    "invite_link": "",
-    "patron": "*Coming Soon*"
+    "devserverid": [],
+    "nodes": [  
+    {
+      "host": "lava4.cruzstudio.tech",
+      "password": "cruzstudio.tech",
+      "port": 80,
+      "name": "lavalink 1",
+      "secure": false
+
+    },
+    {
+      "host": "lava1.cruzstudio.tech",
+      "password": "cruzstudio.tech",
+      "port": 80,
+      "name": "lavalink 2",
+      "secure": false
+
+     },
+    {
+      "host": "lava3.cruzstudio.tech",
+      "password": "cruzstudio.tech",
+      "port": 80,
+      "name": "lavalink 3",
+      "secure": false
+    }]
+
 }

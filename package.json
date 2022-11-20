@@ -10,11 +10,26 @@
 	"author": "jasonhaxstuff",
 	"license": "GPL-3.0",
 	"dependencies": {
+		"@discordjs/voice": "^0.11.0",
+		"@napi-rs/canvas": "^0.1.29",
 		"ascii-table": "^0.0.9",
+		"canvas": "^2.9.3",
 		"discord-modals": "^1.3.9",
 		"discord.js": "^14.2.0",
 		"dotenv": "^16.0.1",
+		"ffmpeg": "^0.0.4",
+		"ffmpeg-static": "^5.0.2",
 		"fs": "^0.0.1-security",
-		"quickmongo": "^5.1.2"
+		"jimp": "^0.16.1",
+		"mongoose": "^6.5.3",
+		"ms": "^2.1.3",
+		"nodemon": "^2.0.19",
+		"parse-color": "^1.0.0",
+		"poru": "^3.1.0",
+		"pretty-ms": "^8.0.0",
+		"quickmongo": "^5.1.2",
+		"undici": "^5.10.0",
+		"ytdl-core": "^4.11.0",
+		"ytsr": "^3.8.0"
 	}
 }
